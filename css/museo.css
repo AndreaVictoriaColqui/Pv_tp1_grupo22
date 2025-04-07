@@ -133,6 +133,15 @@ footer{
         padding: 0;
         margin: 0;
     }
+
+    .nav-1{
+        flex-direction: column;
+    }
+
+    html{
+        font-size: 14px;
+    }
+ 
   }
 
   #btnInicio {
@@ -151,5 +160,7 @@ footer{
   #btnInicio:hover {
     background-color: #0056b3;
   }
+
+
   
   
