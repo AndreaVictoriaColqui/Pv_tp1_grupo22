@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+h1{font-size: 3.2em;}
+h2{font-size: 3em;}
+h3{font-size: 2.5em;}
+p{font-size: 1.5;}
+ul{list-style: none;}
+
+.contenedor{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: rgba(123, 123, 121, 0.788);
+}
+header .logo{
+    margin: 0;
+    padding: 25px 20px;
+
+}
+header .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    color: darkorange;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/salento.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#historia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/calle-colorida-guatape-colombia_42616-36.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#cultura{
+    text-align: center;
+    background-color: black
+}
+
+#cultura .contenedor{
+  padding: 100px 20px;
+}
+
+#cultura p{
+    display: none;
+}
+
+#cultura h2{
+    margin-top: 0;
+    color: white;
+}
+
+#cultura .carta{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 12px;
+    border-radius: 20px;
+    color: white;
+}
+#cultura .carta button{
+    border-radius: 10px;
+}
+#cultura .carta button:hover{
+    color: rgb(255, 0, 0);
+}
+
+#cultura .carta:nth-of-type(1) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/culturacolombia.jpg");
+}
+  
+  #cultura .carta:nth-of-type(2) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/comidacolombiana.jpg");
+}
+  
+  #cultura .carta:nth-of-type(3) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/musica-colombia.jpg");
+}
+
+@media (min-width: 729px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .contenedor{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 30px;
+      
+    }
+}
+
+#cultura .contenedordecartas{
+    display: flex;
+    justify-content: center;
+}
+
+#cultura p{
+    display: block;
+    color: white;
+    
+}
+#cultura h3{
+    margin-top:0;
+}
+#cultura .carta{
+    padding: 15px;
+}
+
+footer {
+    width: 100%;
+    background-color: orange;
+    padding: 10px;
+    text-align: center; 
+    color: black;       
+  }
+
+#btnInicio {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  #btnInicio:hover {
+    background-color: #0056b3;
+  }
+  
