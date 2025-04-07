@@ -15,10 +15,12 @@ h3{font-size: 2.5em;}
 p{font-size: 1.5;}
 ul{list-style: none;}
 
-.contenedor{
+.contenedor{                  
     max-width: 1400px;
     margin: auto;
 }
+
+
 header{
     background-color: rgba(123, 123, 121, 0.788);
 }
@@ -48,6 +50,8 @@ header a{
 header a:hover{
     color: darkorange;
 }
+
+
 #hero{
     display: flex;
     align-items: center;
@@ -182,3 +186,26 @@ footer {
     background-color: #0056b3;
   }
   
+
+
+nav a {
+  position: relative;
+  text-decoration: none;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px; 
+    width: 100%;
+    height: 2px;
+    background-color: orange;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+
+nav a:hover::after {
+  transform: scaleX(1);
+}
