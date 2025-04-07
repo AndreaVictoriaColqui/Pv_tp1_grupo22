@@ -1,0 +1,153 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.nav-contenedor{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(255, 165, 0, 0.8);
+    padding: 1rem;
+}
+
+.nav-contenedor > ul{
+    display: flex;
+}
+
+ul > li {
+    margin: 0 1rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    color:white
+}
+
+
+
+h2{
+    text-align: center;
+    margin: 1rem;
+}
+
+.contenedor-imagen1{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    background-image: url(/img/Museo1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.contenedor-imagen2{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    background-image: url(/img/museo2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.contenedor-imagen3{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    background-image: url(/img/Museo3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+p{
+    margin-top: 1rem;
+    text-align: center;
+    margin: 0 5%;
+    line-height: 2;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+#art1{
+    padding: 0;
+
+}
+article{
+    height: 100vh;
+    padding:  3rem ;
+}
+
+
+footer{
+    background-color: rgba(255, 165, 0, 0.8);
+    padding: 0 1rem 1rem 1rem;
+}
+
+  
+  @media (max-width: 600px) {
+    .contenedor-imagen1{
+        width: 80%;
+        height: 40vh;
+    }
+    
+    .contenedor-imagen2{
+        width: 80%;
+        height: 40vh;
+    }
+    
+    .contenedor-imagen3{
+        width: 80%;
+        height: 40vh;
+    }
+
+    article{
+        height: 150vh;
+        padding: 0;
+    }
+  }
+
+  #btnInicio {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    background-color:  rgba(255, 165, 0, 0.8);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  #btnInicio:hover {
+    background-color: #0056b3;
+  }
+  
+  
