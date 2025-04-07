@@ -101,7 +101,8 @@ p{
 }
 article{
     height: 100vh;
-    padding:  3rem ;
+    padding: 3rem 0 ;
+    margin-bottom: 1rem;
 }
 
 
@@ -128,8 +129,9 @@ footer{
     }
 
     article{
-        height: 150vh;
+        height: 131vh;
         padding: 0;
+        margin: 0;
     }
   }
 
