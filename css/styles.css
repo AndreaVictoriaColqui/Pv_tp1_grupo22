@@ -24,7 +24,7 @@ ul{list-style: none;}
 
 
 header{
-    background-color: rgb(23, 23, 23);
+    background: transparent;
 }
 header .logo{
     margin: 0;
