@@ -1,8 +1,24 @@
+a{
+    position: fixed;
+  bottom: 20px;  /* 20px desde el fondo de la página */
+  right: 20px;   /* 20px desde el borde derecho */
+  padding: 10px 20px;
+  background-color: #007bff;  /* Color de fondo */
+  color: white;  /* Color del texto */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     display: flex;
     align-items: center;
+    background-image: url(../img/fondo\ cont.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 form{
     padding: 50px 55px;
@@ -10,6 +26,8 @@ form{
     border-radius: 20px;
     text-align: center;
     width: 340px;
+    background-color: rgba(234, 236, 236, 0.886);
+    border: 4px solid black;
 
 }
 input-group{
@@ -17,4 +35,13 @@ input-group{
     flex-direction: column;
     text-align: left;
 
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    color: gray;
+}
+div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
