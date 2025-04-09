@@ -255,9 +255,9 @@ header a:hover{
     white-space: nowrap;
     animation: moverLogo 5s linear infinite;
     font-weight: bold;
-    font-size: 48px; /* más grande */
-    color: rgb(205, 140, 0); /* asegurate que contraste */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* para que se lea sobre cualquier fondo */
+    font-size: 48px; /* más grande dependiendo como quede mejor chango*/
+    color: rgb(205, 140, 0); /* contraste fachero o nada  */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /*pa q se vea pro */
   }
   
   @keyframes moverLogo {
