@@ -106,10 +106,15 @@ article{
 }
 
 
-footer{
-    background-color: rgba(255, 165, 0, 0.8);
-    padding: 0 1rem 1rem 1rem;
-}
+footer {
+    width: 100%;
+    background-color: orange;
+    text-align: center; 
+    color: black;   
+    height: 80px; 
+    position: relative;
+    bottom: 0%
+  }
 
   
   @media (max-width: 600px) {
@@ -158,9 +163,10 @@ footer{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   }
   #btnInicio:hover {
-    background-color: #0056b3;
+    background-color: #000000;
   }
-
-
+body{
+    border: 100vh;
+}
   
   
